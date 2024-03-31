@@ -45,5 +45,10 @@ class Date {
         Student student2 = new Student("Alice", 1995);
         LocalDate dob2 = calculateDOB(student2);
         System.out.println("Student: " + student2.getName() + ", DOB: " + dob2);
+
+        Course obj= new Course();
+        System.out.println("\n\nCOURCE INFROMATION");
+        obj.displayCource("DevOps", "22ebc201");
+        obj.displayCource("java", "22ebc202");
     }
 }
